@@ -28,9 +28,17 @@ function doWhileLoop(array) {
 		i = i + 1;
 	}
   do {
+<<<<<<< HEAD
     array = array.slice(1);
     incrementVariable;
   }
   while (array.length > 0 && incrementVariable())
   return array
 }
+=======
+    array.length > 0 &&
+    incrementVariable()
+  }
+  while (i < 25)
+}
+>>>>>>> 26367e9ea3559a08f65c937c25bfa1b875ec866e
